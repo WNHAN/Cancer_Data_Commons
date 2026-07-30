@@ -1,0 +1,9 @@
+# Create table for fact_condition by join table dim_sample_clean and dim_cancer
+CREATE OR REPLACE TABLE fact_condition AS
+SELECT
+    s.PATIENT_ID,
+    c.Cancer_ID,
+    s."Tumor Type"
+FROM dim_sample_clean s
+JOIN dim_cancer c
+ON s."Tumor Type" = c.Cancer_name;

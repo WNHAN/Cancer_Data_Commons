@@ -1,0 +1,8 @@
+CREATE OR REPLACE TABLE fact_survival AS
+SELECT
+    PATIENT_ID,
+    OS_STATUS,
+    OS_MONTHS,
+    DFS_STATUS,
+    DFS_MONTHS
+FROM dim_patient;

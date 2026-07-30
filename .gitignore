@@ -1,0 +1,33 @@
+# DuckDB
+*.duckdb
+*.db
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# DuckDB temporary files
+*.duckdb
+*.duckdb.wal
+*.wal
