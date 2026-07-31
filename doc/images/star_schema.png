@@ -1,0 +1,7 @@
+              dim_gene
+                  |
+                  |
+dim_patient ---- fact_mutation ---- dim_sample
+                  |
+                  |
+             dim_cancer

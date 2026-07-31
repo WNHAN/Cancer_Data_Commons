@@ -510,6 +510,12 @@ Potential future improvements:
 * Expand molecular annotation
 * Add automated pipeline execution
 
+## Architecture
+
+![Architecture](doc/images/architecture.png)
+
+
+
 ---
 
 # License

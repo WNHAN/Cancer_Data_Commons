@@ -1,0 +1,16 @@
+cBioPortal BRCA
+        |
+        v
+Raw Data
+        |
+        v
+Python ETL
+        |
+        v
+DuckDB Warehouse
+        |
+        v
+SQL Analytics
+        |
+        v
+Reports / Dashboard
